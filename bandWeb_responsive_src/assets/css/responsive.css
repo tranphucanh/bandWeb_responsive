@@ -1,0 +1,133 @@
+/* PC */
+@media (min-width: 1024px){
+    #header #mobile-menu{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px){
+    #header #slider{
+        width: 100%;
+    }
+
+    #content .content-section{
+        width: 100%;
+        padding: 64px 16px;
+    }
+
+    #content .about-text{
+        margin: 0 16px;
+    }
+
+    #content .tour-list{
+        justify-content:space-around;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    #header{
+        overflow: hidden;
+    }
+
+    #header #mobile-menu{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header #mobile-menu:hover{
+        background-color: #ccc;
+        color: black;
+    }
+
+    #header #search{
+        display: none;
+    }
+
+    #nav{
+        width: 100%;
+    }
+
+    #nav li{
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    #nav li a{
+        display: block;
+        width: 100%;
+    }
+
+    #header #nav .subnav{
+        position: initial;
+        width: 100%;
+        background-color: #333;
+        height: auto;
+    }
+
+    #header #nav .subnav a{
+        color: #fff;
+        padding-left: 45px;
+    }
+
+    #slider .text-content{
+        display: none;
+    }
+
+    #content .content-section{
+        padding: 64px 16px;
+    }
+
+    #content .member-list{
+        flex-flow: column wrap;
+    }
+
+    #content .member-item{
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 60%;
+    }
+
+    #content .member-name{
+        margin: 15px 0;
+    }
+
+    #content .member-img{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    #content .tour-list{
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    #content .tour-list .tour-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #content .contact .contact-info,
+    #content .contact .contact-form{
+        display: block;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #content .contact-form .form-name input,
+    #content .contact-form .form-email input{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    #content .contact-form .form-name{
+        margin-bottom: 10px;
+    }
+}
